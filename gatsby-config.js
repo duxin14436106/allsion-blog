@@ -9,17 +9,21 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `A Blog Of Allison DU`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Allison`,
+      summary: `who lives and works in Front End Engineer.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A blog demonstrating what Gatsby can do.`,
+    siteUrl: `https://allison.surge.sh/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `https://github.com/duxin14436106/allsion-blog`,
     },
   },
+  /**
+   * 添加以下两个插件，一个用于读取md文件，一个用于转换其为html
+   * gatsby-transformer-remark gatsby-source-filesystem
+   */
   plugins: [
     `gatsby-plugin-image`,
     {

@@ -15,7 +15,7 @@ const Layout = ({ location, title, children }) => {
   } else {
     header = (
       <Link className="header-link-home" to="/">
-        {title}
+        {title}(返回首页)
       </Link>
     )
   }
@@ -25,9 +25,9 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, Built By
         {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <a href="https://github.com/duxin14436106" target="_blank">Allison</a>
       </footer>
     </div>
   )
